@@ -11,3 +11,7 @@ ports:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 #tasks:
 #  - command: cd aspnetcoreapp/ && dotnet run --urls http://0.0.0.0:5001
+vscode:
+  extensions:
+    - muhammad-sammy.csharp@1.22.2:QPGHDSFqgXKkaMLe1uWxtQ==
+    - jchannon.csharpextensions@1.3.0:ci7PQpvQpNrV7HIWADm76Q==
