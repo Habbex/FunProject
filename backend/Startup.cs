@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+
 namespace backend
 {
     public class Startup
@@ -36,8 +37,7 @@ namespace backend
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseSawagger();    
+               
             app.UseHttpsRedirection();
 
             app.UseSwaggerUI(c =>

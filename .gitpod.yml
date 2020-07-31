@@ -1,6 +1,5 @@
 image: 
   file: docker/dockerfile
-
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/43_config_ports/
 ports:
   - port: 5000
@@ -9,9 +8,10 @@ ports:
     onOpen: open-preview
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
-#tasks:
-#  - command: cd aspnetcoreapp/ && dotnet run --urls http://0.0.0.0:5001
+tasks:
+  - command: cd backend/ && dotnet run --urls http://0.0.0.0:5001
 vscode:
   extensions:
     - muhammad-sammy.csharp@1.22.2:QPGHDSFqgXKkaMLe1uWxtQ==
     - jchannon.csharpextensions@1.3.0:ci7PQpvQpNrV7HIWADm76Q==
+    - ms-vscode.csharp@1.21.12:kw8SkO8+aVTSFug281WfQQ==
